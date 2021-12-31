@@ -20,7 +20,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent.parent
 PARENT_DIR = BASE_DIR.parent
 
-SECRET_KEY = os.environ.get("SECRET_KEY", "/bB/PiOBQ+4sm9nugkW5Oj5e9JvRKNPRIfNt1P6XSm0=")
+SECRET_KEY = os.environ.get("SECRET_KEY", "9KhddHmZPkoT85GnsksiIkkyRKakWoZy")
 
 CANONICAL_ROOT_DOMAIN = "localhost:8000"
 
@@ -159,17 +159,17 @@ ALLOWS_DOWNLOAD_AS_ZIP = True
 IMGUR_CLIENT_ID = os.environ.get("IMGUR_CLIENT_ID", "")
 DISCORD_WEBHOOK_ID = int(os.environ.get("DISCORD_WEBHOOK_ID", 1))
 DISCORD_WEBHOOK_TOKEN = os.environ.get("DISCORD_WEBHOOK_TOKEN", "")
-DISCORD_USERNAME = "Danke.moe"
-DISCORD_PING = "<@&796228557256654858>"  # @Quality Control/Proofreading, to find that code, enter \@therole on discord
-DISCORD_MESSAGE = "If you found an issue with this release <:bonk:807730387115442257>, share it on <#875807668390993920>"
+DISCORD_USERNAME = ""
+DISCORD_PING = ""  
+DISCORD_MESSAGE = ""
 
-BRANDING_NAME = "Danke fürs Lesen"
-BRANDING_DESCRIPTION = "Thank you for reading! A circle that works on random twitter and pixiv one-shots and the occasional cute manga."
-BRANDING_IMAGE_URL = "https://danke.moe/static/img/thumbnail.png"
+BRANDING_NAME = "WolfScan"
+BRANDING_DESCRIPTION = "Thank you for reading! A lone wolf that works on random manga they like."
+BRANDING_IMAGE_URL = "https://cdn.discordapp.com/attachments/834746365364011030/924197540512018502/christams.jpg"
 
-HOME_BRANDING_NAME = "Home for scanlations of Danke fürs Lesen"
+HOME_BRANDING_NAME = "Home for scanlations of WolfScan"
 HOME_BRANDING_DESCRIPTION = "Read our latest chapters here."
-HOME_BRANDING_IMAGE_URL = "https://danke.moe/static/img/thumbnail.png"
+HOME_BRANDING_IMAGE_URL = "https://cdn.discordapp.com/attachments/834746365364011030/924197540512018502/christams.jpg"
 
 IMAGE_PROXY_URL = "https://proxy.f-ck.me"
 
